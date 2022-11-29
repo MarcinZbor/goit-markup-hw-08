@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --brand-color: #212121;
+  --brand-background: #f5f4fa;
+  --hover: #2196f3;
+  --our-advantage__text: #757575;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.active {
+  color: var(--hover);
+}
+
+a:hover,
+a:focus {
+  color: var(--hover);
+}
+.imagepic{
+  display: block;}
+
