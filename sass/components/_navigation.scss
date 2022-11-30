@@ -6,3 +6,9 @@
     padding-bottom: 32px;
     flex-grow: 2;
   }
+
+  @media screen and (max-width: 480px) {
+    .navigation {
+      display: none;
+    }
+  }
