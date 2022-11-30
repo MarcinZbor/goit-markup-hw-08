@@ -1,12 +1,24 @@
 .nav-button{
     display: flex;
-    position: relative;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+
+.nav-button__svg{
     height: 40px;
     width: 40px;
 }
 
-.nav-button__svg{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-}
+@media screen and (min-width: 768px) {
+    .nav-button {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .nav-button {
+      display: none;
+    }
+  }
