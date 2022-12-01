@@ -3,7 +3,7 @@ address {
     display: flex;
     flex-direction: column;
     padding-left: 15px;
-    margin-bottom: 9px;
+  
   
   }
   .adres {
@@ -15,4 +15,11 @@ address {
     margin-bottom: 9px;
     padding-left: 115px;
   
+  }
+
+  .adres__contact-email {
+    padding-left: 183px;
+  }
+  .adres__contact-phone{
+    padding-left: 183px;
   }
