@@ -1,6 +1,5 @@
 .section {
     padding-top: 94px;
-    padding-bottom: 94px;
     margin: 0 auto;
     text-align: center;
   }
@@ -13,7 +12,7 @@
     padding-bottom: 50px;
   }
   .section-team {
-    padding-top: 94px;
+    padding-top: 60px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 94px;
@@ -22,7 +21,7 @@
 
 
   @media screen and (max-width: 1199px) {
-    .section-title {
+    .section-title-skills {
       display: none;
     }
   }
