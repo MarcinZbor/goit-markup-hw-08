@@ -1,65 +1,65 @@
 .customer {
-    list-style: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  justify-content: space-between;
+  margin-bottom: 60px;
+
+  &__logo-link {
+    display: flex;
+    gap: 30px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: rgba(175, 177, 184, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__logo-link:hover,
+  &__logo-link:focus {
+    border-color: var(--hover);
+    fill: var(--hover);
+  }
+}
+
+.customer__icon-logo {
+  margin: 14px auto;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customer__item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+
+// Tablet
+
+@media screen and (min-width: 790px) {
+  .customer {
+    &__logo-link {
+      justify-content: center;
+    }
+  }
+  .customer__icon-logo {
+    margin: 17px 32px 14px 32px;
+  }
+  .customer__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
+
+// Desktop
+
+@media screen and (min-width: 1199px) {
+  .customer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 30px;
-    padding: 0;
-    justify-content: space-between;
-    margin-bottom: 60px;
-  
+
     &__logo-link {
-      display: flex;
-      gap: 30px;
-      border: 1px solid #afb1b8;
-      border-radius: 4px;
-      fill: rgba(175, 177, 184, 1);
-      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    &__logo-link:hover,
-    &__logo-link:focus {
-      border-color: var(--hover);
-      fill: var(--hover);
+      justify-content: center;
     }
   }
-
-  .customer__icon-logo {
-
-    margin: 14px auto;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .customer__item{
-    flex-basis: calc((100% - 30px)/2)
-  }
-
-
-// Destkop
-
-  // .customer {
-  //   list-style: none;
-  //   display: flex;
-  //   gap: 30px;
-
-
-  //   &__logo-link {
-  //     display: flex;
-  //     gap: 30px;
-  //     border: 1px solid #afb1b8;
-  //     border-radius: 4px;
-  //     fill: rgba(175, 177, 184, 1);
-  //     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  //   }
-
-  //   &__logo-link:hover,
-  //   &__logo-link:focus {
-  //     border-color: var(--hover);
-  //     fill: var(--hover);
-  //   }
-  // }
-
-  // .customer__icon-logo {
-  //   margin: 17px 32px 14px 32px;
-  //   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  // }
+}
