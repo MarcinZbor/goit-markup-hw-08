@@ -13,7 +13,6 @@
 }
 
 .form-footer__input {
-  width: 358px;
   height: 50px;
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(117, 117, 117, 0.3);
@@ -36,7 +35,6 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 12px;
-  width: 100%;
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -54,13 +52,26 @@
   align-items: center;
 }
 
+// TABLET
+
+
+
 // DESKTOP
 @media screen and (min-width: 1199px) {
   .form-footer {
  margin-left: 68px;
+ align-items: flex-start;
+  }
+  .form-footer__input {
+    width: 358px;
+    height: 50px;
   }
 
   .form-footer__container {
     flex-direction: row;
+  }
+
+  .form-footer__button {
+    margin-top: 0;
   }
 }

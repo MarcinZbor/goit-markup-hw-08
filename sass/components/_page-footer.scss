@@ -16,9 +16,9 @@
 
 // DESKTOP
 
-// @media screen and(min-width: 1199px) {
-//   &__logo3 {
-//     font-size: 26px;
-//     line-height: 1.38;
-//   }
-// }
+@media screen and(min-width: 1199px) {
+
+  .page-footer {
+    text-align: left; 
+  }
+}
