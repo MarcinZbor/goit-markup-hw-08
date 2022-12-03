@@ -1,8 +1,8 @@
 .our-advantage {
-margin-top: 0px;
-padding: 0;
-list-style: none;
-display: block;
+  margin-top: 0px;
+  padding: 0;
+  list-style: none;
+  display: block;
 
   &__font {
     font-size: 14px;
@@ -36,20 +36,16 @@ display: block;
   margin-right: 100px;
 }
 // Tablet
-@media screen and (min-width: 768px) {
-  .our-advantage {
-    
-  }
-  }
-
-
-
+// @media screen and (min-width: 768px) {
+//   .our-advantage {
+//   }
+// }
 
 // Desktop
 @media screen and (min-width: 1199px) {
-.our-advantage {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 30px;
-}
+  .our-advantage {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
 }
