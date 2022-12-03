@@ -25,7 +25,7 @@
 .our-advantage__list {
   background-color: #f5f4fa;
   height: 120px;
-  width: 270px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -36,10 +36,19 @@
   margin-right: 100px;
 }
 // Tablet
-// @media screen and (min-width: 768px) {
-//   .our-advantage {
-//   }
-// }
+@media screen and (min-width: 768px) {
+  .our-advantage {
+    display: flex;
+  }
+
+  .our-advantage__list{
+  height: 120px;
+  width: 354px;}
+}
+
+
+
+
 
 // Desktop
 @media screen and (min-width: 1199px) {
@@ -48,4 +57,9 @@
     flex-wrap: nowrap;
     gap: 30px;
   }
+
+  .our-advantage__list{
+    height: 120px;
+    width: 270px;}
+
 }
