@@ -39,14 +39,15 @@
 @media screen and (min-width: 768px) {
   .our-advantage {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  flex-basis: calc((100% - 30px) /2 )}
+
   }
 
   .our-advantage__list{
   height: 120px;
-  width: 354px;}
 }
-
-
 
 
 
