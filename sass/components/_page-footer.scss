@@ -18,9 +18,8 @@
     margin-right: 144px;
   }
   .page-footer__logolink {
-    padding-left: 77px;;
+    padding-left: 77px;
   }
-
 }
 
 // DESKTOP
@@ -33,5 +32,14 @@
 
   .page-footer__logolink {
     padding-left: 0;
+  }
+
+  .page-footer__logo1 {
+    font-size: 26px;
+    line-height: 1.16;
+  }
+  .page-footer__logo3 {
+    font-size: 26px;
+    line-height: 1.16;
   }
 }
