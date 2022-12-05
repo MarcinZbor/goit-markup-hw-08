@@ -27,5 +27,10 @@
 @media screen and(min-width: 1199px) {
   .page-footer {
     text-align: left;
+    margin-right: 94px;
+  }
+
+  .page-footer__logolink {
+    padding-left: 0;
   }
 }
