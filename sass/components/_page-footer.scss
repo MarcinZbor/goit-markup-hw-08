@@ -15,11 +15,12 @@
 // TABLET
 @media screen and(min-width: 768px) {
   .page-footer {
-    text-align: left;
+    margin-right: 144px;
   }
-  .page-footer__logolink{
-    padding-left: 115px;
+  .page-footer__logolink {
+    padding-left: 77px;;
   }
+
 }
 
 // DESKTOP
@@ -27,7 +28,7 @@
 @media screen and(min-width: 1199px) {
   .page-footer {
     text-align: left;
-    margin-right: 94px;
+    margin-right: 0;
   }
 
   .page-footer__logolink {
