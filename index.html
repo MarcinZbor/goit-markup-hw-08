@@ -222,7 +222,7 @@
             <li class="skills__image">
               <picture>
                 <source
-                  media="(min-width: 1200px)"
+                  media="(min-width: 1199px)"
                   srcset="./images/box1@1x.jpg 1x, ./images/box1@2x.jpg 2x"
                   type="image/jpg"
                 />
@@ -238,33 +238,33 @@
             <li class="skills__image">
               <picture>
                 <source
-                  media="(min-width: 1200px)"
+                  media="(min-width: 1199px)"
                   srcset="./images/box2@1x.jpg 1x, ./images/box2@2x.jpg 2x"
                   type="image/jpg"
                 />
-              <img
-                src="./images/box2.jpg"
-                alt="koleś z komórka"
-                width="370"
-                height="294"
-              />
-            </picture>
+                <img
+                  src="./images/box2.jpg"
+                  alt="koleś z komórka"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <p class="skills__text">APLIKACJE MOBILNE</p>
             </li>
             <li class="skills__image">
               <picture>
                 <source
-                  media="(min-width: 1200px)"
+                  media="(min-width: 1199px)"
                   srcset="./images/box3@1x.jpg 1x, ./images/box3@2x.jpg 2x"
                   type="image/jpg"
                 />
-              <img
-                src="./images/box3.jpg"
-                alt="koleś z tabletem"
-                width="370"
-                height="294"
-              />
-            </picture>
+                <img
+                  src="./images/box3.jpg"
+                  alt="koleś z tabletem"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <p class="skills__text">ROZWIĄZANIA GRAFICZNE</p>
             </li>
           </ul>
@@ -275,13 +275,39 @@
           <h2 class="section-title section-title-team">Nasz zespół</h2>
           <ul class="team">
             <li class="team__member">
-              <img
-                src="./images/team1.jpg"
-                alt="team1"
-                width="270"
-                height="260"
-                class="imagepic team__imagepic"
-              />
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team1mobile@1x,jpg 1x,
+                    ./images/team1mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 768px)"
+                  srcset="
+                    ./images/team1tablet@1x,jpg 1x,
+                    ./images/team1tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 1199px)"
+                  srcset="
+                    ./images/team1desktop@1x,jpg 1x,
+                    ./images/team1desktop@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team1.jpg"
+                  alt="team1"
+                  width="270"
+                  height="260"
+                  class="imagepic team__imagepic"
+                />
+              </picture>
               <h3 class="team__name">John Doe</h3>
               <p class="team__position">Product designer</p>
               <ul class="social-list">
@@ -317,13 +343,39 @@
             </li>
 
             <li class="team__member">
-              <img
-                src="./images/team2.jpg"
-                alt="team2"
-                width="270"
-                height="260"
-                class="imagepic team__imagepic"
-              />
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team2mobile@1x,jpg 1x,
+                    ./images/team2mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 768px)"
+                  srcset="
+                    ./images/team2tablet@1x,jpg 1x,
+                    ./images/team2tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 1199px)"
+                  srcset="
+                    ./images/team2desktop@1x,jpg 1x,
+                    ./images/team2desktop@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team2.jpg"
+                  alt="team2"
+                  width="270"
+                  height="260"
+                  class="imagepic team__imagepic"
+                />
+              </picture>
               <h3 class="team__name">John Doe</h3>
               <p class="team__position">Frontend Developer</p>
               <ul class="social-list">
@@ -359,13 +411,40 @@
             </li>
 
             <li class="team__member">
-              <img
-                src="./images/team3.jpg"
-                alt="team3"
-                width="270"
-                height="260"
-                class="imagepic team__imagepic"
-              />
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team3mobile@1x,jpg 1x,
+                    ./images/team3mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 768px)"
+                  srcset="
+                    ./images/team3tablet@1x,jpg 1x,
+                    ./images/team3tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 1199px)"
+                  srcset="
+                    ./images/team3desktop@1x,jpg 1x,
+                    ./images/team3desktop@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team3.jpg"
+                  alt="team3"
+                  width="270"
+                  height="260"
+                  class="imagepic team__imagepic"
+                />
+              </picture>
+           
               <h3 class="team__name">John Doe</h3>
               <p class="team__position">Marketing</p>
               <ul class="social-list">
@@ -401,13 +480,39 @@
             </li>
 
             <li class="team__member">
-              <img
-                src="./images/team4.jpg"
-                alt="team4"
-                width="270"
-                height="260"
-                class="imagepic team__imagepic"
-              />
+              <picture>
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team4mobile@1x,jpg 1x,
+                    ./images/team4mobile@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 768px)"
+                  srcset="
+                    ./images/team4tablet@1x,jpg 1x,
+                    ./images/team4tablet@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <source
+                  media="(mix-width: 1199px)"
+                  srcset="
+                    ./images/team4desktop@1x,jpg 1x,
+                    ./images/team4desktop@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/team4.jpg"
+                  alt="team4"
+                  width="270"
+                  height="260"
+                  class="imagepic team__imagepic"
+                />
+              </picture>
               <h3 class="team__name">John Doe</h3>
               <p class="team__position">UI Designer</p>
               <ul class="social-list">
