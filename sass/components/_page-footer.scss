@@ -13,12 +13,19 @@
 }
 
 // TABLET
+@media screen and(min-width: 768px) {
+  .page-footer {
+    text-align: left;
+  }
+  .page-footer__logolink{
+    padding-left: 115px;
+  }
+}
 
 // DESKTOP
 
 @media screen and(min-width: 1199px) {
-
   .page-footer {
-    text-align: left; 
+    text-align: left;
   }
 }

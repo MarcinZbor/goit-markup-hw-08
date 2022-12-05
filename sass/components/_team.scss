@@ -37,6 +37,21 @@
     
   }
   
+// TABLET
+
+@media screen and (min-width: 768px){
+  .team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f5f4fa;
+    gap: 30;
+  }
+    .team__member {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+}
+
 
 // desktop
 
