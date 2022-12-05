@@ -220,30 +220,51 @@
           <h2 class="section-title section-title-skills">Czym się zajmujemy</h2>
           <ul class="skills">
             <li class="skills__image">
-              <img
-                src="./images/box1.jpg"
-                alt="koleś pisze coś na kompie"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/box1@1x.jpg 1x, ./images/box1@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <img
+                  src="./images/box1.jpg"
+                  alt="koleś pisze coś na kompie"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <p class="skills__text">APLIKACJE KOMPUTEROWE</p>
             </li>
             <li class="skills__image">
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/box2@1x.jpg 1x, ./images/box2@2x.jpg 2x"
+                  type="image/jpg"
+                />
               <img
                 src="./images/box2.jpg"
                 alt="koleś z komórka"
                 width="370"
                 height="294"
               />
+            </picture>
               <p class="skills__text">APLIKACJE MOBILNE</p>
             </li>
             <li class="skills__image">
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/box3@1x.jpg 1x, ./images/box3@2x.jpg 2x"
+                  type="image/jpg"
+                />
               <img
                 src="./images/box3.jpg"
                 alt="koleś z tabletem"
                 width="370"
                 height="294"
               />
+            </picture>
               <p class="skills__text">ROZWIĄZANIA GRAFICZNE</p>
             </li>
           </ul>
