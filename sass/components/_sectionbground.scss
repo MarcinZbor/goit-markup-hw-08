@@ -12,7 +12,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(255, 255, 255, 0)
     ),
-    url(/images/bgrmobile@1x.jpg);
+    url(../images/bgrmobile@1x.jpg);
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -20,7 +20,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(255, 255, 255, 0)
       ),
-      url(/images/bgrmobile@2x.jpg);
+      url(../images/bgrmobile@2x.jpg);
   }
 
   @media screen and (min-width: 768px) {
@@ -28,7 +28,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(255, 255, 255, 0)
       ),
-      url(/images/bgrtablet@1x.jpg);
+      url(../images/bgrtablet@1x.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -36,7 +36,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(255, 255, 255, 0)
         ),
-        url(/images/bgrtablet@2x.jpg);
+        url(../images/bgrtablet@2x.jpg);
     }
   }
   @media screen and (min-width: 1199px) {
@@ -44,7 +44,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(255, 255, 255, 0)
       ),
-      url(/images/bgrdesktop@1x.jpg);
+      url(../images/bgrdesktop@1x.jpg);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
@@ -52,7 +52,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(255, 255, 255, 0)
         ),
-        url(/images/bgrdesktop@2x.jpg);
+        url(../images/bgrdesktop@2x.jpg);
     }
   }
 
