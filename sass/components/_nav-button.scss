@@ -13,14 +13,12 @@
     fill: var(--hover);
   }
 }
-
-
 .nav-button__svg {
   height: 40px;
   width: 40px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .nav-button {
     display: none;
   }

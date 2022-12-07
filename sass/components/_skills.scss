@@ -1,35 +1,40 @@
 .skills {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 
-    &__text {
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 1.14;
-      letter-spacing: 0.03em;
-      text-align: center;
-      color: rgba(255, 255, 255, 1);
-      display: block;
-      background-color: rgba(47, 48, 58, 0.8);
-      position: absolute;
-      width: inherit;
-      height: 70px;
-      bottom: 0px;
-      padding: 28px;
-    }
-
-    &__image {
-      position: relative;
-      max-height: 294px;
-      width: 370px;
-    }
+  &__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    background-color: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    width: inherit;
+    height: 70px;
+    bottom: 0px;
+    padding: 28px;
   }
 
-  @media screen and (max-width: 1199px) {
-    .skills {
-      display: none;
-    }
+  &__image {
+    position: relative;
+    max-height: 294px;
+    width: 370px;
   }
-  
+}
+
+@media screen and (max-width: 1199px) {
+  .skills {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .skills {
+    margin-bottom: 94px;
+  }
+}

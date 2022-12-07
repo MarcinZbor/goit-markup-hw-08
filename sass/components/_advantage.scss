@@ -41,18 +41,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px; }
+    gap: 30px;
+  }
 
-   .our-advantage__item { 
-  flex-basis: calc((100% - 30px) /2 )}
+  .our-advantage__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
 
-
-  .our-advantage__list{
-  height: 120px;
+  .our-advantage__list {
+    height: 120px;
+  }
 }
-}
-
-
 
 // Desktop
 @media screen and (min-width: 1199px) {
@@ -62,8 +61,12 @@
     gap: 30px;
   }
 
-  .our-advantage__list{
+  .our-advantage__list {
     height: 120px;
-    width: 270px;}
+    width: 270px;
+  }
 
+  .our-advantage__font {
+    text-align: left;
+  }
 }
